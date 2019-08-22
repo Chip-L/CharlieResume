@@ -30,7 +30,7 @@ html {
   .mobile-hide {
     display: none;
   }
-  
+
   .mobile-show {
     display: inherit;
   }
@@ -41,4 +41,10 @@ html {
 	background-color: black;
 	padding: 10px;
 	color: white;
+}
+
+.top {
+  padding: 1em;
+  box-shadow: inset 1em 1em grey
+
 }
