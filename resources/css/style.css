@@ -48,3 +48,7 @@ body {
   box-shadow: inset 1em 1em grey
 
 }
+
+.bold {
+  font-style: bold;
+}
