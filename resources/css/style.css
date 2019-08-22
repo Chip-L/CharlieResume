@@ -41,14 +41,21 @@ body {
 	background-color: black;
 	padding: 10px;
 	color: white;
-  border: 1em red;
+  border: .1em solid red;
+
+  display: flex;
+  align-items: center;
+}
+
+.column {
+  display: inline-flex;
+  align-items: center;
 }
 
 .top {
-  padding: 1em;
-  box-shadow: inset 1em 1em grey;
-  border: 1em red;
-
+  padding: .2em;
+  border: .5em solid grey;
+  margin: .2em;
 }
 
 .bold {
