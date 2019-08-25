@@ -38,13 +38,17 @@ html {
 
 /****************************** Container Styles ******************************/
 body {
-	background-color: black;
-	padding: 10px;
-	color: white;
+  background-imag: 'resources\images\hexes.jpg';
+  padding: 10px;
+  color: white;
   border: .1em solid red;
 
   display: flex;
   align-items: center;
+}
+
+.left {
+  background-color: gray;
 }
 
 .column {
@@ -56,6 +60,7 @@ body {
   padding: .2em;
   border: .5em solid grey;
   margin: .2em;
+  align-items: stretch;
 }
 
 .bold {
