@@ -43,27 +43,39 @@ body {
   padding: 10px;
   color: white;
   border: 1px solid red;
+
+  display: flex;
+  ali
 }
 
 .left {
   background-color: gray;
   border: 1px solid red;
-  
+
   display: flex;
   align-items: center;
 }
 
 .right {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.75);
   border: 1px solid red;
-}
 
-.column {
-  display: inline-flex;
+  margin-left: .5em;
+
+  display: flex;
   align-items: center;
 }
 
-.top {
+.left .column {
+  display: flex;
+  align-items: center;
+}
+
+.deck {
+  display: inline-flex;
+}
+
+.left .column .header {
   padding: .2em;
   border: .5em solid grey;
   margin: .2em;
